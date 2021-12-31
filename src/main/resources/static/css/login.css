@@ -1,0 +1,40 @@
+.login-wrap{
+	border: solid 1px gray;
+    width: 600px;
+    margin: 0 auto 40px auto;
+    padding: 60px;
+}
+.login-box{
+	border: solid 1px gray;
+	width: 485px;
+	margin-top: 30px;
+	padding: 40px;
+}
+.login-box-title{
+	padding: 30px 0 0;
+}
+.login-box-content {
+    overflow: hidden;
+    display: flex;
+}
+.login-box-content input{
+	display: block;
+    width: 220px;
+    height: 36px;
+    margin: 15px 0 10px 0;
+    padding: 0 0 0 8px;
+    border: 1px solid #d0d0d0;
+    color: #979d9d;
+}
+
+.login-box-content button{
+    width: 158px;
+    height: 87px;
+    margin: 15px 0 0 20px;
+    border: 1px solid #434343;
+    background: #434343;
+    color: #ffffff;
+    font-size: 15px;
+    font-weight: bold;
+    cursor: pointer;
+}

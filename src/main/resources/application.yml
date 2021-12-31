@@ -1,0 +1,23 @@
+server:
+  port: 9003
+
+#jsp
+spring:
+  devtools:
+    livereload:
+      enabled: true
+
+#mysql
+  datasource:
+    #driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/yagueoddae?serverTimezone=Asia/Seoul
+    username: minjee
+    password: kimmj1106!
+
+#mybatis
+mybatis:
+  type-aliases-package: data.*
+  mapper-locations:
+  - /mapper/**/*.xml
+
+
