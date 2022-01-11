@@ -3,21 +3,21 @@
 <link rel="stylesheet" href="/css/login.css">
 
 <div class="container">
-	<div class="row-mt120">
+	<div class="row-mt150">
 		<div class="login-wrap">
 			<div class="login-title">
 				<h3>로그인</h3>
 			</div>
 			<div class="login-box">
 				<div class="login-box-title">
-					<h4>회원 로그인</h4>
+					<h5>회원 로그인</h5>
 				</div>
 				<div class="login-box-content">
 					<div>
 						<input type="text" class="user-id" placeholder="아이디">
 						<input type="password" class="user-pass" placeholder="비밀번호">
 					</div>
-					<div>
+					<div class="btn-login">
 						<button type="button">로그인</button>
 					</div>
 				</div>
@@ -29,7 +29,34 @@
 					</span>
 				</div>
 				<hr>
-				<!-- 여기서부터 회원가입, 비번찾기버튼 만들거임 -->
+				<!-- 여기서부터 회원가입, 비번찾기 버튼 -->
+				<div class="btn-login-sub-box">
+					<ul class="login-sub-box-list">
+						<li>
+							<button class="btn-member-join" onclick="location.href='/login/joinform'">
+								회원가입
+							</button>
+						</li>
+						<li>
+							<button class="btn-find-id" onclick="">
+								아이디 찾기
+							</button>
+						</li>
+						<li>
+							<button class="btn-find-pass" onclick="">
+								비밀번호 찾기
+							</button>
+						</li>
+					</ul>
+				</div>
+				<div class="login-box-title">
+					<h5>SNS 로그인</h5>
+				</div>
+				<div class="sns-login-box">
+					<button>카카오</button>
+					<button>네이버</button>
+					<button>구글</button>
+				</div>
 			</div>
 		</div>
 	</div>
