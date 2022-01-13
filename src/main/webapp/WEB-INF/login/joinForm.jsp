@@ -5,16 +5,18 @@
 <div class="container">
 	<div class="row-mt150">
 		<div class="join-wrap">
-			<h3>회원가입</h3>
+			<div class="join-title">
+				<h3>회원가입</h3>
+			</div>
 			<hr>
-			<div class="base-info-box">
-				<h4 class="join-title">기본정보</h4>
-				<span>*필수입력 사항</span>
-				<div>
+			<div class="join-box">
+				<h4 class="join-sub-title">기본정보</h4>
+				<span class="important imp-tit">*필수입력 사항</span>
+				<div class="join-table-box">
 					<table>
 						<colgroup>
-							<col width="25%">
-							<col width="75%">
+							<col width="250px;">
+							<col width="550px;">
 						</colgroup>
 						<tbody>
 							<tr>
@@ -33,7 +35,7 @@
 								</th>
 								<td>
 									<div>
-										<input type="text">
+										<input type="password">
 									</div>
 								</td>
 							</tr>
@@ -43,7 +45,7 @@
 								</th>
 								<td>
 									<div>
-										<input type="text">
+										<input type="password">
 									</div>
 								</td>
 							</tr>
@@ -81,7 +83,7 @@
 								</th>
 								<td>
 									<div>
-										<input type="text">
+										<input type="text" placeholder="- 없이 입력하세요">
 									</div>
 								</td>
 							</tr>
@@ -104,6 +106,10 @@
 							</tr>
 						</tbody>
 					</table>
+				</div>
+				<div class="join-btn-box">
+					<button type="button">취소</button>
+					<button type="button" class="btn-join">회원가입</button>
 				</div>
 			</div>
 		</div>
