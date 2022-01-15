@@ -17,7 +17,7 @@
 					<!-- logo -->
 					<div class="site-logo">
 						<a href="/">
-							<img src="/img/yagulogo.jpg" alt="">
+							<img src="/img/yagulogo.png" alt="">
 						</a>
 					</div>
 					<!-- logo -->

@@ -13,103 +13,105 @@
 				<h4 class="join-sub-title">기본정보</h4>
 				<span class="important imp-tit">*필수입력 사항</span>
 				<div class="join-table-box">
-					<table>
-						<colgroup>
-							<col width="250px;">
-							<col width="550px;">
-						</colgroup>
-						<tbody>
-							<tr>
-								<th>
-									<span class="important">아이디</span>
-								</th>
-								<td>
-									<div>
-										<input type="text">
-									</div>
-								</td>
-							</tr>
-							<tr>
-								<th>
-									<span class="important">비밀번호</span>
-								</th>
-								<td>
-									<div>
-										<input type="password">
-									</div>
-								</td>
-							</tr>
-							<tr>
-								<th>
-									<span class="important">비밀번호 확인</span>
-								</th>
-								<td>
-									<div>
-										<input type="password">
-									</div>
-								</td>
-							</tr>
-							<tr>
-								<th>
-									<span class="important">이름</span>
-								</th>
-								<td>
-									<div>
-										<input type="text">
-									</div>
-								</td>
-							</tr>
-							<tr>
-								<th>
-									<span class="important">이메일</span>
-								</th>
-								<td>
-									<div>
-										<input type="text">
-										<select>
-											<option value="self">직접입력</option>
-											<option value="naver.com">naver.com</option>
-											<option value="hanmail.net">hanmail.net</option>
-											<option value="daum.net">daum.net</option>
-											<option value="mail.com">gmail.com</option>
-											<option value="nate.com">nate.com</option>
-										</select>
-									</div>
-								</td>
-							</tr>
-							<tr>
-								<th>
-									<span class="important">휴대폰 번호</span>
-								</th>
-								<td>
-									<div>
-										<input type="text" placeholder="- 없이 입력하세요">
-									</div>
-								</td>
-							</tr>
-							<tr>
-								<th>
-									<span class="important">주소</span>
-								</th>
-								<td>
-									<div class="address-postcode">
-										<input type="text" readonly="readonly">
-										<button type="button">우편번호 검색</button>
-									</div>
-									<div class="address-main">
-										<input type="text" readonly="readonly">
-									</div>
-									<div class="address-sub">
-										<input type="text">
-									</div>
-								</td>
-							</tr>
-						</tbody>
-					</table>
-				</div>
-				<div class="join-btn-box">
-					<button type="button">취소</button>
-					<button type="button" class="btn-join">회원가입</button>
+					<form>
+						<table>
+							<colgroup>
+								<col width="250px;">
+								<col width="550px;">
+							</colgroup>
+							<tbody>
+								<tr>
+									<th id="top-th">
+										<span class="important">*</span>아이디
+									</th>
+									<td id="top-td">
+										<div>
+											<input type="text" required="required">
+										</div>
+									</td>
+								</tr>
+								<tr>
+									<th>
+										<span class="important">*</span>비밀번호
+									</th>
+									<td>
+										<div>
+											<input type="password" required="required">
+										</div>
+									</td>
+								</tr>
+								<tr>
+									<th>
+										<span class="important">*</span>비밀번호 확인
+									</th>
+									<td>
+										<div>
+											<input type="password" required="required">
+										</div>
+									</td>
+								</tr>
+								<tr>
+									<th>
+										<span class="important">*</span>이름
+									</th>
+									<td>
+										<div>
+											<input type="text" required="required">
+										</div>
+									</td>
+								</tr>
+								<tr>
+									<th>
+										<span class="important">*</span>이메일
+									</th>
+									<td>
+										<div>
+											<input type="email" required="required">
+											<select class="email-option">
+												<option value="self">직접입력</option>
+												<option value="naver.com">naver.com</option>
+												<option value="hanmail.net">hanmail.net</option>
+												<option value="daum.net">daum.net</option>
+												<option value="mail.com">gmail.com</option>
+												<option value="nate.com">nate.com</option>
+											</select>
+										</div>
+									</td>
+								</tr>
+								<tr>
+									<th>
+										<span class="important">*</span>휴대폰 번호
+									</th>
+									<td>
+										<div>
+											<input type="tel" required="required" placeholder="- 없이 입력하세요">
+										</div>
+									</td>
+								</tr>
+								<tr>
+									<th id="bottom-th">
+										<span class="important">*</span>주소
+									</th>
+									<td id="bottom-td">
+										<div class="address-postcode">
+											<input type="text" id="addr-postcode" required="required">
+											<button type="button" id="btn-addr-postcode">우편번호 검색</button>
+										</div>
+										<div class="address-main">
+											<input type="text" required="required">
+										</div>
+										<div class="address-sub">
+											<input type="text" required="required">
+										</div>
+									</td>
+								</tr>
+							</tbody>
+						</table>
+						<div class="join-btn-box">
+							<button type="button">취소</button>
+							<button type="submit" class="btn-join">회원가입</button>
+						</div>
+					</form>
 				</div>
 			</div>
 		</div>

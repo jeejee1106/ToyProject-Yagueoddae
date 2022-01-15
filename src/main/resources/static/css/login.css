@@ -97,9 +97,17 @@
 	margin-left: 20px;
 }
 
-.join-table-box{
-	border-top: solid 2px #434343;
-	border-bottom: solid 2px #434343;
+.important{
+	margin-right: 5px;
+	color: #AB3E55;
+}
+
+#top-th, #top-td{
+	border-top: solid 1px #434343;
+}
+
+#bottom-th, #bottom-td{
+	border-bottom: solid 1px #434343;
 }
 
 .join-table-box table th {
@@ -111,7 +119,35 @@
 
 .join-table-box table td {
     border-bottom: solid 1px #dcdcdc;
-    padding: 20px 0 20px 15px;
+    padding: 17px 0 17px 15px;
+}
+
+.join-table-box table input{
+	width: 300px;
+	height: 33px;
+	border: solid 1px #dcdcdc;
+	padding-left: 10px;
+}
+
+.email-option{
+	width: 120px;
+	height: 33px;
+	border: solid 1px #dcdcdc;
+}
+
+#addr-postcode{
+	width: 140px;
+}
+
+#btn-addr-postcode{
+	width: 100px;
+	height: 33px;
+	border: solid 1px #dcdcdc;
+	font-size: 10pt;
+}
+
+.address-main{
+	margin: 10px 0;
 }
 
 .join-btn-box{
