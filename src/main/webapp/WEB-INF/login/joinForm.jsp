@@ -13,7 +13,7 @@
 				<h4 class="join-sub-title">기본정보</h4>
 				<span class="important imp-tit">*필수입력 사항</span>
 				<div class="join-table-box">
-					<form>
+					<form action="/login/joinsuccess" method="post">
 						<table>
 							<colgroup>
 								<col width="250px;">
@@ -26,7 +26,7 @@
 									</th>
 									<td id="top-td">
 										<div>
-											<input type="text" required="required">
+											<input type="text" name="id" required="required">
 										</div>
 									</td>
 								</tr>
@@ -36,7 +36,7 @@
 									</th>
 									<td>
 										<div>
-											<input type="password" required="required">
+											<input type="password" name="pass" required="required">
 										</div>
 									</td>
 								</tr>
@@ -56,7 +56,7 @@
 									</th>
 									<td>
 										<div>
-											<input type="text" required="required">
+											<input type="text" name="name" required="required">
 										</div>
 									</td>
 								</tr>
@@ -66,7 +66,7 @@
 									</th>
 									<td>
 										<div>
-											<input type="email" required="required">
+											<input type="email" name="email" required="required">
 											<select class="email-option">
 												<option value="self">직접입력</option>
 												<option value="naver.com">naver.com</option>
@@ -84,7 +84,7 @@
 									</th>
 									<td>
 										<div>
-											<input type="tel" required="required" placeholder="- 없이 입력하세요">
+											<input type="tel" name="hp" required="required" placeholder="- 없이 입력하세요">
 										</div>
 									</td>
 								</tr>
@@ -101,7 +101,7 @@
 											<input type="text" required="required">
 										</div>
 										<div class="address-sub">
-											<input type="text" required="required">
+											<input type="text" name="addr" required="required">
 										</div>
 									</td>
 								</tr>
